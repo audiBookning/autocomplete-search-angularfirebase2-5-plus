@@ -1,7 +1,7 @@
-Quick update to Angular 7+
+Quick update to Angular 7+.
 Old version at https://github.com/audiBookning/autocomplete-search-angularfirebase2-5-plus/tree/original (ATTENTION: many packages are not updated and unsecures)
 
-# Refactoring of the code of '_Autocomplete Search With Angular4 and Firebase_' at https://angularfirebase.com/lessons/autocomplete-search-with-angular4-and-firebase/ for AngularFire 2 (https://github.com/angular/angularfire2) version 5.+
+### Refactoring of the code of '_Autocomplete Search With Angular4 and Firebase_' at https://angularfirebase.com/lessons/autocomplete-search-with-angular4-and-firebase/ for AngularFire 2 (https://github.com/angular/angularfire2) version 5.+
 
 Default project generated with:
 
