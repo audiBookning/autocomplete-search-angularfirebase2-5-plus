@@ -1,0 +1,16 @@
+<h1>Movie Search</h1>
+<input
+  type="text"
+  #searchInput
+  (keyup)="search(searchInput.value)"
+  placeholder="search movies..."
+  class="input"
+/>
+<div *ngFor="let movie of (movies$ | async)">
+  <h4>Title: {{ movie?.Title }}</h4>
+  <p>Plot: {{ movie?.Plot }}</p>
+</div>
+<div *ngIf="(movies$ | async)?.length < 1">
+  <hr />
+  <p>No results found :(</p>
+</div>
